@@ -1,6 +1,6 @@
 # Homepwner-Chapt-10-Challenge
 Completed Challenges for Big Nerd Ranch Chapter 10 Challenges UITableView and UITableViewController
-: the first array containin
+
 Bronze Challenge - UITableView to display two distict sections: items less than $50.00 and items greater than $50.00 . Logic added to UIItemViewController to separate the items array supplied by the itemStore into two separate arrauys reflecting the price separation.
 numberOfSections(in tableView: UITableView) -> Int method amended to return the number of sections to display in the table view.
 
