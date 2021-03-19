@@ -12,8 +12,8 @@ class ItemStore {
     
     var allItems = [Item]()
     
-    @discardableResult func createItem() -> Item {
-        let newItem = Item(random: true)
+    @discardableResult func createItem(requestRandom: Bool) -> Item {
+        let newItem = Item(random: requestRandom)
         
         allItems.append(newItem)
         
@@ -22,7 +22,7 @@ class ItemStore {
     
     init(){
         for _ in 0..<5 {
-            createItem()
+            createItem(requestRandom: true)
         }
     }
 }
